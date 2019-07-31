@@ -6,32 +6,36 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:icon="@mipmap/home"
+            android:title="Inicio" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/docentes"
+            android:icon="@mipmap/person"
+            android:title="Docentes" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/plan"
+            android:icon="@mipmap/paper"
+            android:title="Plan de estudios" />
         <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
+            android:id="@+id/grupos"
+            android:icon="@mipmap/search"
+            android:title="Grupos de Investigacion" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Contacto">
         <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
+                android:title="Datos de contacto" />
+            <item
+                android:id="@+id/mapa"
+                android:icon="@mipmap/map"
+                android:title="Ubicacion" />
+            <item
+                android:id="@+id/qr"
+                android:icon="@mipmap/qr"
+                android:title="QR" />
         </menu>
     </item>
 
